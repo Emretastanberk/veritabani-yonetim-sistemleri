@@ -1,0 +1,2 @@
+select USERS.ID,USERS.userName,USERS.userSurname,USERS.telNo,ADDRESSES.city from USERS
+INNER JOIN ADDRESSES ON ADDRESSES.addressNo= USERS.addressNo
